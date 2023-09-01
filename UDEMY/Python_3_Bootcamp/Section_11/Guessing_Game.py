@@ -1,11 +1,10 @@
 from random import randint
 
 num = randint(1,10)
-print (num)
-
 guess = 0
 
 while guess != num :
+    print (num)
     guess = input ("Guess a number between 1 and 10: ")
     guess = int(guess)
 
