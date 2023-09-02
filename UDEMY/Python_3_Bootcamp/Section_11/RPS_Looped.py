@@ -7,15 +7,6 @@ RPS = ["rock", "paper", "scissors"]
 player_wins = 0
 comp_wins = 0
 
- 
-
-
-
-
-
-#player = RPS[p1]
-
-
 
 while player_wins != 3 and comp_wins != 3 :
 
