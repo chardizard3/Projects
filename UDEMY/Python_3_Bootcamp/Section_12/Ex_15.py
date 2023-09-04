@@ -6,10 +6,8 @@ Use what we learned at the end of the previous video!
 """
 
 # Define my_stuff 
-my_stuff = ["phone", "vape", "pc", "laptop"]
+my_stuff = ["phone", "vape", 1.0, "laptop"]
 
 # Define nums 
 nums = list(range(1,100))
 
-
-print(len(nums))
