@@ -15,6 +15,8 @@ See the problem statements in the comments below:
 
 instructors = []
 instructors.append("Colt")
+print(instructors)
 instructors.append("Blue")
+print(instructors)
 instructors.append("Lisa")
 print(instructors)
