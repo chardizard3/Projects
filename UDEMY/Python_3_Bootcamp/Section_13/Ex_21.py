@@ -6,11 +6,18 @@
 
 list1 = [1,2,3,4]
 list2 = [3,4,5,6]
-answer=[num for answer in list1 if]
 
+answer=[answer for answer in list1 if answer in list2]
 
+print (answer)
 
 # 2. Given a list of words ["Elie", "Tim", "Matt"] 
 #create a variable called answer2, which is a new list with 
 # each word reversed and in lower case (use a slice to do the reversal!) 
 # Your output should be ['eile', 'mit', 'ttam'] 
+
+list3 = ["Elie", "Tim", "Matt"]
+
+answer2 = [answer2[::-1].lower() for answer2 in list3]
+
+print(answer2)
